@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\uday1\IdeaProjects\TestNGProjectIJ\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="addelement">addelement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="authForm">authForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="basicauthor">basicauthor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="checkboxer">checkboxer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="dragop">dragop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="dropdoun">dropdoun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="elemDisappear">elemDisappear</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="ipForm">ipForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testsPackage.CheckBoxHeroku" class="method navigator-link" hash-for-method="pgScroll">pgScroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testsPackage.CheckBoxHeroku</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addelement">
+                  </a> <!-- addelement -->
+                  <span class="method-name">addelement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="authForm">
+                  </a> <!-- authForm -->
+                  <span class="method-name">authForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="basicauthor">
+                  </a> <!-- basicauthor -->
+                  <span class="method-name">basicauthor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkboxer">
+                  </a> <!-- checkboxer -->
+                  <span class="method-name">checkboxer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragop">
+                  </a> <!-- dragop -->
+                  <span class="method-name">dragop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdoun">
+                  </a> <!-- dropdoun -->
+                  <span class="method-name">dropdoun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="elemDisappear">
+                  </a> <!-- elemDisappear -->
+                  <span class="method-name">elemDisappear</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ipForm">
+                  </a> <!-- ipForm -->
+                  <span class="method-name">ipForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pgScroll">
+                  </a> <!-- pgScroll -->
+                  <span class="method-name">pgScroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\uday1\IdeaProjects\TestNGProjectIJ\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;C:/Users/uday1/IdeaProjects/TestNGProjectIJ&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;baseSetPackage.BaseHerokuSet&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;returnDriver&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- baseSetPackage.BaseHerokuSet --&gt;
+      &lt;class name=&quot;testsPackage.CheckBoxHeroku&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkboxer&quot;/&gt;
+          &lt;include name=&quot;addelement&quot;/&gt;
+          &lt;include name=&quot;basicauthor&quot;/&gt;
+          &lt;include name=&quot;elemDisappear&quot;/&gt;
+          &lt;include name=&quot;authForm&quot;/&gt;
+          &lt;include name=&quot;ipForm&quot;/&gt;
+          &lt;include name=&quot;pgScroll&quot;/&gt;
+          &lt;include name=&quot;dragop&quot;/&gt;
+          &lt;include name=&quot;dropdoun&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testsPackage.CheckBoxHeroku --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:/Users/uday1/IdeaProjects/TestNGProjectIJ --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:/Users/uday1/IdeaProjects/TestNGProjectIJ (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'authForm')
+data.setCell(0, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(0, 3, 21108);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'pgScroll')
+data.setCell(1, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(1, 3, 20352);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dropdoun')
+data.setCell(2, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(2, 3, 19407);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ipForm')
+data.setCell(3, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(3, 3, 18284);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkboxer')
+data.setCell(4, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(4, 3, 17020);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dragop')
+data.setCell(5, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(5, 3, 15403);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'elemDisappear')
+data.setCell(6, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(6, 3, 15372);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addelement')
+data.setCell(7, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(7, 3, 13084);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'basicauthor')
+data.setCell(8, 2, 'testsPackage.CheckBoxHeroku')
+data.setCell(8, 3, 10064);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testsPackage.CheckBoxHeroku</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initBaseTest(org.testng.TestRunner@6badba10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setcheck</span>
+                <span class="method-start">6340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkboxer</span>
+                <span class="method-start">6366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addelement</span>
+                <span class="method-start">23394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">basicauthor</span>
+                <span class="method-start">36478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">elemDisappear</span>
+                <span class="method-start">46544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">authForm</span>
+                <span class="method-start">61916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ipForm</span>
+                <span class="method-start">83028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">pgScroll</span>
+                <span class="method-start">101312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragop</span>
+                <span class="method-start">121666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdoun</span>
+                <span class="method-start">137069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endweb</span>
+                <span class="method-start">156478 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
