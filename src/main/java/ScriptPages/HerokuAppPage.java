@@ -31,7 +31,7 @@ public class HerokuAppPage extends PropertyPage implements ITestListener {
             GetProperty();
             driver.get(prop.getProperty("url"));
             driver.manage().window().maximize();
-            Thread.sleep(5000);
+            Thread.sleep(8000);
         }
 
         public void CheckUncheckBox() throws InterruptedException {
